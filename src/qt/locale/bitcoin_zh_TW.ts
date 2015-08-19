@@ -1,38 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE TS><TS language="zh_TW" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="zh_TW">
+<defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About GridCoin</source>
-        <translation>關於Gridcoin</translation>
+        <translation type="obsolete">關於Gridcoin</translation>
     </message>
     <message>
-        <location line="+39"/>
         <source>&lt;b&gt;GridCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Gridcoin客戶端&lt;/b&gt; 版本</translation>
+        <translation type="obsolete">&lt;b&gt;Gridcoin客戶端&lt;/b&gt; 版本</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The GridCoin developers</source>
-        <translation type="unfinished">版權所有©2009-2014比特幣Bitcoin的開發組
+        <translation type="obsolete">版權所有©2009-2014比特幣Bitcoin的開發組
 版權所有©2012-2014新星幣Novacoin開發組
 版權所有©2014 年Gridcoin開發組</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished">這是一套實驗性軟體。
+        <translation type="obsolete">這是一套實驗性軟體。
 
 本軟體是依據MIT/X11軟體授權條款散佈。詳情見附帶的COPYING或&amp;lt;a href=&amp;quot;http://www.opensource.org/licenses/mit-license.php&amp;quot;&amp;gt;http://www.opensource.org/licenses/mit-license.php&amp;lt;/a&amp;gt;.
 
 本產品包含了由OpenSSL Project開發的OpenSSL Toolkit (&amp;lt;a href=&amp;quot;https://www.openssl.org/&amp;quot;&amp;gt;https://www.openssl.org/&amp;lt;/a&amp;gt;)和Eric Young (&amp;lt;a href=&amp;quot;mailto:eay@cryptsoft.com&amp;quot;&amp;gt;eay@cryptsoft.com&amp;lt;/a&amp;gt;) 的加密軟體，以及Thomas Bernard的UPnP軟體。</translation>
+    </message>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="+14"/>
+        <source>About Gridcoin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>&lt;b&gt;Gridcoin&lt;/b&gt; </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+58"/>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -43,12 +62,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>地址簿</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+6"/>
+        <source>These are your Gridcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
         <source>Double-click to edit address or label</source>
         <translation>按兩下來編輯位址或標記</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+30"/>
         <source>Create a new address</source>
         <translation>製造新的位址</translation>
     </message>
@@ -58,17 +82,21 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>複製目前選擇的位址到系統剪貼簿</translation>
     </message>
     <message>
-        <location line="-11"/>
+        <location line="+25"/>
+        <source>Sign a message to prove you own a Gridcoin address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-36"/>
         <source>&amp;New Address</source>
         <translation>新建地址(&amp;N)</translation>
     </message>
     <message>
-        <location line="-46"/>
         <source>These are your GridCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>這是您用來接收支付的Gridcoin地址列表。爲不同的支付方建立不同的地址以便於了解支付來源。</translation>
+        <translation type="obsolete">這是您用來接收支付的Gridcoin地址列表。爲不同的支付方建立不同的地址以便於了解支付來源。</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>複製地址(&amp;C)</translation>
     </message>
@@ -78,27 +106,30 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>顯示二維碼(&amp;Q)</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Sign a message to prove you own a GridCoin address</source>
-        <translation>對信息進行簽名以證明您對該Gridcoin地址的所有權</translation>
+        <translation type="obsolete">對信息進行簽名以證明您對該Gridcoin地址的所有權</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+14"/>
         <source>Sign &amp;Message</source>
         <translation>簽署訊息(&amp;M)</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+11"/>
+        <source>Verify a message to ensure it was signed with a specified Gridcoin address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Delete the currently selected address from the list</source>
         <translation>把目前選擇的位址從列表中刪掉</translation>
     </message>
     <message>
-        <location line="-14"/>
         <source>Verify a message to ensure it was signed with a specified GridCoin address</source>
-        <translation>驗證信息以保證其經過指定Gridcoin地址的簽名</translation>
+        <translation type="obsolete">驗證信息以保證其經過指定Gridcoin地址的簽名</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-11"/>
         <source>&amp;Verify Message</source>
         <translation>驗證訊息(&amp;V)</translation>
     </message>
@@ -189,12 +220,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>仅用於权益增值</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+35"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation type="unfinished">輸入錢包的新密碼。&lt;br/&gt;使用的密码请至少包含&lt;b&gt;10 個以上隨機字符&lt;/b&gt;或者是&lt;b&gt;8 個以上的單詞&lt;/b&gt;。</translation>
+        <translation type="obsolete">輸入錢包的新密碼。&lt;br/&gt;使用的密码请至少包含&lt;b&gt;10 個以上隨機字符&lt;/b&gt;或者是&lt;b&gt;8 個以上的單詞&lt;/b&gt;。</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location filename="../askpassphrasedialog.cpp" line="+38"/>
         <source>Encrypt wallet</source>
         <translation>加密錢包</translation>
     </message>
@@ -229,7 +259,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>請輸入錢包的舊密碼及新密碼。</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+45"/>
         <source>Confirm wallet encryption</source>
         <translation>確認錢包加密</translation>
     </message>
@@ -261,7 +291,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <location line="-58"/>
+        <location line="-140"/>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+82"/>
         <source>GridCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Gridcoin客戶端即將關閉以完成加密過程。請記住，加密錢包並不能完全防止您的電子貨幣被入侵您計算機的木馬軟件盜竊。</translation>
     </message>
@@ -310,17 +345,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+280"/>
+        <location filename="../bitcoingui.cpp" line="+970"/>
         <source>Sign &amp;message...</source>
         <translation>簽署訊息(&amp;M)...</translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+315"/>
         <source>Synchronizing with network...</source>
         <translation type="unfinished">Synchronizing with network...</translation>
     </message>
     <message>
-        <location line="-308"/>
+        <location line="-460"/>
         <source>&amp;Overview</source>
         <translation>總覽</translation>
     </message>
@@ -365,7 +400,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished">付款(&amp;S) </translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+56"/>
         <source>E&amp;xit</source>
         <translation>結束(&amp;X)</translation>
     </message>
@@ -375,22 +410,20 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>結束應用程式</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+27"/>
         <source>Show information about GridCoin</source>
         <translation>關於Gridcoin</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation>關於&amp;Qt</translation>
+        <translation type="obsolete">關於&amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>顯示 Qt 相關資訊</translation>
+        <translation type="obsolete">顯示 Qt 相關資訊</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+40"/>
         <source>&amp;Options...</source>
         <translation>選項(&amp;O)...</translation>
     </message>
@@ -410,7 +443,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>改變密碼(&amp;C)...</translation>
     </message>
     <message numerus="yes">
-        <location line="+250"/>
+        <location line="+323"/>
         <source>~%n block(s) remaining</source>
         <translation>
             <numerusform>~%n 個區塊未完成</numerusform>
@@ -422,17 +455,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>交易記錄已下載％3％（1％/2％個區塊）。</translation>
     </message>
     <message>
-        <location line="-247"/>
+        <location line="-320"/>
         <source>&amp;Export...</source>
         <translation>導出(&amp;E)...</translation>
     </message>
     <message>
-        <location line="-62"/>
+        <location line="-141"/>
         <source>Send coins to a GridCoin address</source>
         <translation type="unfinished">向指定的地址發送Gridcoin</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+124"/>
         <source>Modify configuration options for GridCoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -472,29 +505,24 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>驗證訊息(&amp;V)...</translation>
     </message>
     <message>
-        <location line="-200"/>
-        <source>GridCoin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+0"/>
+        <location line="-775"/>
         <source>Wallet</source>
         <translation>錢包</translation>
     </message>
     <message>
-        <location line="+178"/>
+        <location line="+718"/>
         <source>&amp;About GridCoin</source>
         <translation>關於Gridcoin(&amp;A)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+44"/>
         <source>&amp;Show / Hide</source>
         <translation>顯示或隱藏(&amp;S)</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Unlock wallet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">解鎖錢包</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -507,7 +535,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+50"/>
         <source>&amp;File</source>
         <translation>檔案(&amp;F)</translation>
     </message>
@@ -522,17 +550,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>說明(&amp;H)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-737"/>
+        <location line="+789"/>
         <source>Tabs toolbar</source>
         <translation>分頁工具列</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Actions toolbar</source>
-        <translation>工具列</translation>
+        <translation type="obsolete">工具列</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+35"/>
         <location line="+9"/>
         <source>[testnet]</source>
         <translation>[測試網絡]</translation>
@@ -556,44 +584,221 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>已下載 %1 個區塊的交易紀錄.</translation>
     </message>
     <message>
-        <location line="+413"/>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>權益增值中 &lt;br&gt;您的權重爲 %1 &lt;br&gt;網絡總權重爲 %2&lt;br&gt;預計將在 %3 之後獲得收益</translation>
+        <translation type="obsolete">權益增值中 &lt;br&gt;您的權重爲 %1 &lt;br&gt;網絡總權重爲 %2&lt;br&gt;預計將在 %3 之後獲得收益</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+1007"/>
         <source>Not staking because wallet is locked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>Not staking because wallet is offline</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>Not staking because wallet is syncing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+10"/>
         <source>Not staking because you don&apos;t have mature coins</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="-403"/>
+        <location line="-1005"/>
         <source>%n second(s) ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location line="-284"/>
+        <location line="-1127"/>
+        <source>Gridcoin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+113"/>
+        <source>Green bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+546"/>
+        <source>&amp;Block Explorer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Block Explorer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Exchange</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+8"/>
+        <source>Web Site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-5"/>
+        <source>&amp;Boinc Stats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Boinc Stats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Web Site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+27"/>
+        <location line="+156"/>
+        <source>&amp;Rebuild Block Chain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-155"/>
+        <source>Rebuild Block Chain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Download Blocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Download Blocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&amp;Reboot Client</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reboot Gridcoin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>&amp;Upgrade Client</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Upgrade Client</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>&amp;Neural Network</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Neural Network</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&amp;SQL Query Analyzer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>SQL Query Analyzer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Live Ticker</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Live Ticker</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Tickets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Tickets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;New User Wizard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+550"/>
+        <source>New User Wizard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-546"/>
+        <source>&amp;Voting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Voting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&amp;Galaza (Game)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Galaza</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&amp;Foundation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Foundation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
         <source>&amp;Unlock Wallet...</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location line="+79"/>
+        <source>&amp;Upgrade QT Client</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>&amp;Advanced</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+288"/>
+        <location line="+267"/>
         <source>%n minute(s) ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -629,7 +834,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+59"/>
+        <location line="+70"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -639,7 +844,37 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+54"/>
+        <source>Please enter your boinc E-mail address, or click &lt;Cancel&gt; to skip for now:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Created new Configuration File Successfully. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>New Account Created - Welcome Aboard!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>To get started with Boinc, run the boinc client, choose projects, then populate the gridcoinresearch.conf file in %appdata%\GridcoinResearch with your boinc e-mail address.  To run this wizard again, please delete the gridcoinresearch.conf file. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>New User Wizard - Skipped</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Attention! - Boinc Path Error!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
         <source>Sent transaction</source>
         <translation>付款交易</translation>
     </message>
@@ -662,7 +897,7 @@ Address: %4
 </translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+383"/>
         <location line="+15"/>
         <source>URI handling</source>
         <translation type="unfinished"></translation>
@@ -704,7 +939,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+76"/>
+        <location line="+261"/>
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -732,12 +967,27 @@ Address: %4
         </translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+27"/>
+        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;&lt;b&gt;Estimated&lt;/b&gt; time to earn reward is %3. %4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Not staking because you don&apos;t have mature coins and stake weight is too low.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Searching for mature coins... Please wait</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Not staking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+109"/>
+        <location filename="../bitcoin.cpp" line="+141"/>
         <source>A fatal error occurred. GridCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -745,7 +995,7 @@ Address: %4
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+90"/>
+        <location filename="../clientmodel.cpp" line="+116"/>
         <source>Network Alert</source>
         <translation>網路警報</translation>
     </message>
@@ -825,7 +1075,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">標記</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1075,8 +1325,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <location filename="../guiutil.cpp" line="+420"/>
-        <location line="+12"/>
+        <location filename="../guiutil.cpp" line="+436"/>
         <source>GridCoin-Qt</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1086,9 +1335,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+0"/>
+        <source>gridcoinresearch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">用法:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1124,7 +1378,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>選項</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+22"/>
         <source>&amp;Main</source>
         <translation>主要(&amp;M)</translation>
     </message>
@@ -1149,17 +1403,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Automatically start GridCoin after logging in to the system.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start GridCoin on system login</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
+        <location line="+41"/>
         <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1174,18 +1418,28 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>網路(&amp;N)</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Automatically open the GridCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>用 &amp;UPnP 設定通訊埠對應</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the GridCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <location line="-43"/>
+        <source>Automatically start Gridcoin after logging in to the system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Start Gridcoin on system login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+37"/>
+        <source>Automatically open the Gridcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Connect to the Gridcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1260,11 +1514,16 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GridCoin.</source>
-        <translation></translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Gridcoin.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+33"/>
+        <source>Whether to show Gridcoin addresses in the transaction list or not.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>金額顯示單位(&amp;U):</translation>
     </message>
@@ -1274,12 +1533,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>選擇操作界面和付款時，預設顯示金額的細分單位。</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Whether to show GridCoin addresses in the transaction list or not.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+12"/>
         <source>&amp;Display addresses in transaction list</source>
         <translation>在交易列表顯示位址(&amp;D)</translation>
     </message>
@@ -1294,17 +1548,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+74"/>
         <source>&amp;OK</source>
         <translation>好(&amp;O)</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+10"/>
         <source>&amp;Cancel</source>
         <translation>取消(&amp;C)</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+13"/>
         <source>&amp;Apply</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1314,7 +1568,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>預設值</translation>
     </message>
     <message>
-        <location line="+149"/>
+        <location line="+148"/>
         <location line="+9"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
@@ -1334,78 +1588,130 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
+        <location filename="../forms/overviewpage.ui" line="+32"/>
         <source>Form</source>
         <translation>表單</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GridCoin network after a connection is established, but this process has not completed yet.</source>
+        <location line="+44"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;Recent transactions&lt;/span&gt;&lt;small&gt;&lt;span&gt;&lt;font color=blue&gt;&amp;nbsp;&amp;nbsp;(Beacons and Votes cost .00011GRC)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-160"/>
-        <source>Stake:</source>
+        <location line="+7"/>
+        <location line="+133"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Gridcoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>未確定金額:</translation>
+        <location line="-58"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://boincstats.com/en/stats/-1/team/detail/118094994/overview&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;img src=&quot;:/images/wallet2&quot;/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-107"/>
-        <source>Wallet</source>
-        <translation>錢包</translation>
+        <location line="+51"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;Wallet&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Spendable:</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Balance:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Your current spendable balance</source>
-        <translation>目前可用餘額</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>Immature:</source>
-        <translation>未成熟金額:</translation>
+        <location line="+15"/>
+        <source>Your current balance.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
+        <source>Stake</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Total number of coins that are staking, and do not yet count toward the current balance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Unconfirmed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Immature:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot;background:black; color:#ffffff;&quot;&gt;Total mined coins that have not yet matured&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Total:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Total Balance     </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Number of transactions:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Total number of transactions in wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+59"/>
+        <source>...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation type="obsolete">未確定金額:</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation type="obsolete">錢包</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation type="obsolete">目前可用餘額</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation type="obsolete">未成熟金額:</translation>
+    </message>
+    <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>還沒成熟的開採金額</translation>
+        <translation type="obsolete">還沒成熟的開採金額</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>Total:</source>
-        <translation>總金額:</translation>
+        <translation type="obsolete">總金額:</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>Your current total balance</source>
-        <translation>目前全部餘額</translation>
+        <translation type="obsolete">目前全部餘額</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;最近交易&lt;/b&gt;</translation>
+        <translation type="obsolete">&lt;b&gt;最近交易&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-108"/>
+        <location line="-140"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../overviewpage.cpp" line="+113"/>
+        <location filename="../overviewpage.cpp" line="+134"/>
         <location line="+1"/>
         <source>out of sync</source>
         <translation>還沒同步</translation>
@@ -1419,14 +1725,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+59"/>
+        <location line="+62"/>
         <source>Request Payment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">金額:</translation>
     </message>
     <message>
         <location line="-44"/>
@@ -1472,137 +1778,190 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
+        <location filename="../forms/rpcconsole.ui" line="+1096"/>
         <source>Client name</source>
         <translation>客戶端軟體名稱</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+348"/>
+        <location line="-593"/>
+        <location line="+45"/>
+        <location line="+42"/>
+        <location line="+57"/>
+        <location line="+19"/>
+        <location line="+29"/>
+        <location line="+37"/>
+        <location line="+39"/>
+        <location line="+273"/>
+        <location filename="../rpcconsole.cpp" line="+392"/>
         <source>N/A</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location line="-217"/>
+        <location line="-410"/>
         <source>Client version</source>
         <translation>客戶端軟體版本</translation>
     </message>
     <message>
-        <location line="-45"/>
+        <location line="-183"/>
         <source>&amp;Information</source>
         <translation>資訊(&amp;I)</translation>
     </message>
     <message>
-        <location line="+68"/>
         <source>Using OpenSSL version</source>
-        <translation>使用的 OpenSSL 版本</translation>
+        <translation type="obsolete">使用的 OpenSSL 版本</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+609"/>
         <source>Startup time</source>
         <translation>啓動時間</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
-        <translation>網路</translation>
+        <translation type="obsolete">網路</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-540"/>
         <source>Number of connections</source>
         <translation>連線數</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+228"/>
         <source>On testnet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-142"/>
         <source>Block chain</source>
         <translation>區塊鏈</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-592"/>
+        <source>Gridcoin - Debug Console</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+446"/>
+        <source>Boost version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;N/A&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Proof Of Research Difficulty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+136"/>
+        <source>Gridcoin Core:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+95"/>
+        <source>Network:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+39"/>
         <source>Current number of blocks</source>
         <translation>目前區塊數</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+29"/>
         <source>Estimated total blocks</source>
         <translation>估計總區塊數</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+222"/>
+        <source>Show the Gridcoin help message to get a list with possible Gridcoin command-line options.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-445"/>
         <source>Last block time</source>
         <translation>最近區塊時間</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+417"/>
+        <source>Open the Gridcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>&amp;Open</source>
         <translation>開啓(&amp;O)</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+15"/>
         <source>Command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Show the GridCoin-Qt help message to get a list with possible GridCoin command-line options.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+13"/>
         <source>&amp;Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>&amp;Console</source>
-        <translation>主控台(&amp;C)</translation>
-    </message>
-    <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation>建置日期</translation>
-    </message>
-    <message>
-        <location line="-104"/>
-        <source>GridCoin - Debug window</source>
+        <location line="+68"/>
+        <source>OpenSSL version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GridCoin Core</source>
+        <source>&amp;Network Traffic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+279"/>
+        <location line="+52"/>
+        <source>&amp;Clear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Totals</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+64"/>
+        <source>In:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+80"/>
+        <source>Out:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+457"/>
+        <source>&amp;Console</source>
+        <translation>主控台(&amp;C)</translation>
+    </message>
+    <message>
+        <location line="-1092"/>
+        <source>Build date</source>
+        <translation>建置日期</translation>
+    </message>
+    <message>
+        <location line="+120"/>
         <source>Debug log file</source>
         <translation>除錯紀錄檔</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Open the GridCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+102"/>
+        <location line="+1864"/>
         <source>Clear console</source>
         <translation>清主控台</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the GridCoin RPC console.</source>
+        <location filename="../rpcconsole.cpp" line="-35"/>
+        <source>Welcome to the Gridcoin RPC console! </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1614,6 +1973,41 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>請打 &lt;b&gt;help&lt;/b&gt; 來看可用指令的簡介。</translation>
+    </message>
+    <message>
+        <location line="+111"/>
+        <source>%1 B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 KB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 MB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 GB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>%1 m</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>%1 h</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 h %2 m</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1651,7 +2045,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>累計金額不足！</translation>
     </message>
     <message>
-        <location line="+77"/>
+        <location line="+86"/>
         <source>Quantity:</source>
         <translation>數目:</translation>
     </message>
@@ -1687,7 +2081,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+19"/>
         <source>medium</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">中等</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -1702,7 +2096,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+19"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">否</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -1720,7 +2114,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+118"/>
         <source>Send to multiple recipients at once</source>
         <translation>一次付給多個收款人</translation>
     </message>
@@ -1761,7 +2155,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a GridCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a GridCoin address (e.g. G8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1880,36 +2274,51 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
+        <translation type="unfinished">表單</translation>
+    </message>
+    <message>
+        <location line="+66"/>
+        <source>The address to send the payment to  (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+60"/>
+        <source>Message:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Send Custom Message to a Gridcoin Recipient</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>A&amp;mount:</source>
         <translation>金額(&amp;A):</translation>
     </message>
     <message>
         <location line="+13"/>
+        <source>Track Coins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-121"/>
         <source>Pay &amp;To:</source>
         <translation>付給(&amp;T):</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="-9"/>
         <location filename="../sendcoinsentry.cpp" line="+25"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>請輸入這個位址的標記來把它加進位址簿中</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-21"/>
         <source>&amp;Label:</source>
         <translation>標記(&amp;L):</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>The address to send the payment to  (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+10"/>
+        <location line="+58"/>
         <source>Choose address from address book</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1935,7 +2344,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GridCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a GridCoin address (e.g. G8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1959,7 +2368,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>The address to sign the message with (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1996,11 +2405,21 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GridCoin address</source>
+        <source>Sign the message to prove you own this Gridcoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+106"/>
+        <source>The address the message was signed with (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Verify the message to ensure it was signed with the specified Gridcoin address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-129"/>
         <source>Reset all sign message fields</source>
         <translation>重置所有訊息簽署欄位</translation>
     </message>
@@ -2022,24 +2441,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>請在下面輸入簽署的位址，訊息(請確定完整複製了所包含的換行，空格，跳位符號等等)，以及簽章，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽章本身過度解讀，以避免被用「中間人攻擊法」詐騙。</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GridCoin address</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+17"/>
+        <location line="+78"/>
         <source>Reset all verify message fields</source>
         <translation>重置所有訊息驗證欄位</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GridCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a GridCoin address (e.g. G8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2120,21 +2529,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
 </context>
 <context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <location filename="../trafficgraphwidget.cpp" line="+75"/>
+        <source>KB/s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>TransactionDesc</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+19"/>
+        <location filename="../transactiondesc.cpp" line="+37"/>
         <source>Open until %1</source>
         <translation>要到 %1 才確定</translation>
     </message>
-    <message numerus="yes">
-        <location line="-2"/>
-        <source>Open for %n block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-        </translation>
-    </message>
     <message>
-        <location line="+8"/>
+        <location line="+6"/>
         <source>conflicted</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2154,7 +2564,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>%1 次確認</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+50"/>
         <source>Status</source>
         <translation>狀態</translation>
     </message>
@@ -2209,12 +2619,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+12"/>
         <location line="+45"/>
         <location line="+17"/>
-        <location line="+30"/>
+        <location line="+52"/>
         <source>Credit</source>
         <translation>入帳</translation>
     </message>
     <message numerus="yes">
-        <location line="-102"/>
+        <location line="-124"/>
         <source>matures in %n more block(s)</source>
         <translation>
             <numerusform>再等 %n 個區塊生出來後成熟</numerusform>
@@ -2229,12 +2639,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+44"/>
         <location line="+8"/>
         <location line="+15"/>
-        <location line="+30"/>
+        <location line="+52"/>
         <source>Debit</source>
         <translation type="unfinished">出帳</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-61"/>
         <source>Transaction fee</source>
         <translation>交易手續費</translation>
     </message>
@@ -2259,14 +2669,38 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>交易識別碼</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 510 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <location line="+11"/>
+        <source>Project</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+1"/>
+        <source>Block Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Block Number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>RAC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Gridcoin generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Debug information</source>
-        <translation>除錯資訊</translation>
+        <translation type="obsolete">除錯資訊</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2274,12 +2708,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>交易</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>Inputs</source>
         <translation>輸入</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+25"/>
         <source>Amount</source>
         <translation>金額</translation>
     </message>
@@ -2294,12 +2728,19 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>否</translation>
     </message>
     <message>
-        <location line="-211"/>
+        <location line="-240"/>
         <source>, has not been successfully broadcast yet</source>
         <translation>，還沒成功公告出去</translation>
     </message>
+    <message numerus="yes">
+        <location line="-69"/>
+        <source>Open for %n more block(s)</source>
+        <translation type="unfinished">
+            <numerusform>再等 %n 個區塊生出來後才確定</numerusform>
+        </translation>
+    </message>
     <message>
-        <location line="+35"/>
+        <location line="+104"/>
         <source>unknown</source>
         <translation>未知</translation>
     </message>
@@ -2307,20 +2748,35 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
+        <location filename="../forms/transactiondescdialog.ui" line="+20"/>
         <source>Transaction details</source>
         <translation>交易明細</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+9"/>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>這個版面顯示這次交易的詳細說明</translation>
+    </message>
+    <message>
+        <location line="+59"/>
+        <source>Execute Contract</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Track Coins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../transactiondescdialog.cpp" line="+81"/>
+        <source>Gridcoin Coin Tracking System</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+226"/>
+        <location filename="../transactiontablemodel.cpp" line="+239"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
@@ -2340,17 +2796,52 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>金額</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+55"/>
         <source>Open until %1</source>
         <translation>要到 %1 才確定</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+9"/>
+        <source>Confirming (%1 of %2 recommended confirmations)&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>已確定(%1 次確認)</translation>
     </message>
+    <message>
+        <location line="+6"/>
+        <source>Immature (%1 confirmations, will be available after %2)&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This block was not received by any other nodes&lt;br&gt; and will probably not be accepted!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+80"/>
+        <source>Mined - DPOR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Minted - (Local) DPOR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Mined - PoR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Mined - Interest</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="-15"/>
+        <location line="-117"/>
         <source>Open for %n more block(s)</source>
         <translation>
             <numerusform>再等 %n 個區塊生出來後才確定</numerusform>
@@ -2367,32 +2858,25 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+6"/>
+        <location line="+9"/>
         <source>Conflicted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>未成熟(%1 次確認，會在 %2 次確認後可用)</translation>
+        <translation type="obsolete">未成熟(%1 次確認，會在 %2 次確認後可用)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>沒有其他節點收到這個區塊，也許它不會被接受！</translation>
+        <translation type="obsolete">沒有其他節點收到這個區塊，也許它不會被接受！</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+9"/>
         <source>Generated but not accepted</source>
         <translation>生產出來但是不被接受</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+61"/>
         <source>Received with</source>
         <translation>收款在</translation>
     </message>
@@ -2412,17 +2896,16 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>付給自己</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Mined</source>
-        <translation>開採所得</translation>
+        <translation type="obsolete">開採所得</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+81"/>
         <source>(n/a)</source>
         <translation>(不適用)</translation>
     </message>
     <message>
-        <location line="+190"/>
+        <location line="+193"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>交易狀態。把游標停在欄位上會顯示確認次數。</translation>
     </message>
@@ -2551,7 +3034,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>顯示交易明細</translation>
     </message>
     <message>
-        <location line="+144"/>
+        <location line="+150"/>
         <source>Export Transaction Data</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2598,12 +3081,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">導出時發生錯誤</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">無法寫入文件 %1 。</translation>
     </message>
     <message>
         <location line="+100"/>
@@ -2617,9 +3100,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
 </context>
 <context>
+    <name>UpgradeDialog</name>
+    <message>
+        <location filename="../forms/upgradedialog.ui" line="+14"/>
+        <source>Gridcoin Upgrading Facility</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+68"/>
+        <source>Retry Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Upgrade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Hide</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+206"/>
+        <location filename="../walletmodel.cpp" line="+274"/>
         <source>Sending...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2637,12 +3143,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>用法:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send command to -server or GridCoind</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>List commands</source>
         <translation>列出指令</translation>
     </message>
@@ -2657,17 +3158,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>選項:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify configuration file (default: GridCoin.conf)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Specify pid file (default: GridCoind.pid)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>Specify wallet file (within data directory)</source>
         <translation>指定錢包檔(會在資料目錄中)</translation>
     </message>
@@ -2687,12 +3178,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+7"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
         <translation>維持連線節點數的上限為 &lt;n&gt; 個(預設值: 125)</translation>
     </message>
@@ -2712,12 +3198,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>把異常節點斷線的臨界值(預設值: 100)</translation>
     </message>
@@ -2727,17 +3208,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>拒絕跟異常節點連線的秒數(預設值: 86400)</translation>
     </message>
     <message>
-        <location line="-44"/>
+        <location line="-43"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>設定在 IPv4 網路上以通訊埠 %u 聽取 RPC 連線時發生錯誤: %s</translation>
     </message>
     <message>
-        <location line="+51"/>
-        <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+109"/>
+        <location line="+157"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2787,7 +3263,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>使用測試網路</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-21"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>是否接受外來連線(預設值: 當沒有 -proxy 或 -connect 時為 1)</translation>
     </message>
@@ -2797,12 +3273,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>設定在 IPv6 網路上以通訊埠 %u 聽候 RPC 連線失敗，退而改用 IPv4 網路: %s</translation>
     </message>
     <message>
-        <location line="+117"/>
+        <location line="+115"/>
         <source>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-20"/>
+        <location line="-21"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2817,7 +3293,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-31"/>
+        <location line="-30"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>警告: 讀取錢包檔 wallet.dat 時發生錯誤！所有的密鑰都正確讀取了，但是交易資料或位址簿資料可能會缺少或不正確。</translation>
     </message>
@@ -2827,7 +3303,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>警告: 錢包檔 wallet.dat 壞掉，但資料被拯救回來了！原來的 wallet.dat 會改儲存在 %s, 檔名是 wallet.{timestamp}.bak. 如果餘額或交易資料有誤，你應該要用備份資料復原回來。</translation>
     </message>
     <message>
-        <location line="-30"/>
+        <location line="-31"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>嘗試從壞掉的錢包檔 wallet.dat 復原密鑰</translation>
     </message>
@@ -2837,7 +3313,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>區塊製造選項:</translation>
     </message>
     <message>
-        <location line="-62"/>
+        <location line="-59"/>
         <source>Connect only to the specified node(s)</source>
         <translation>只連線到指定節點(可多個)</translation>
     </message>
@@ -2847,22 +3323,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>找出自己的網際網路位址(預設值: 當有聽候連線且沒有 -externalip 時為 1)</translation>
     </message>
     <message>
-        <location line="+94"/>
+        <location line="+92"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>在任意的通訊埠聽候失敗。如果你希望這樣的話，可以設定 -listen=0.</translation>
     </message>
     <message>
-        <location line="-90"/>
+        <location line="-88"/>
         <source>Find peers using DNS lookup (default: 1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
         <source>Sync checkpoints policy (default: strict)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+83"/>
+        <location line="+82"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2872,7 +3348,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-82"/>
+        <location line="-81"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>每個連線的接收緩衝區大小上限為  &lt;n&gt;*1000 個位元組(預設值: 5000)</translation>
     </message>
@@ -2882,12 +3358,47 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>每個連線的傳送緩衝區大小上限為 &lt;n&gt;*1000 位元組(預設值: 1000)</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-15"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>只和 &lt;net&gt; 網路上的節點連線(IPv4, IPv6, 或 Tor)</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="-49"/>
+        <source>%s, you must set a rpcpassword in the configuration file:
+ %s
+It is recommended you use the following random password:
+rpcuser=gridcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo.com
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Send command to -server or gridcoind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Specify configuration file (default: gridcoin.conf)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Specify pid file (default: gridcoind.pid)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Listen for connections on &lt;port&gt; (default: 32749 or testnet: 32748)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2907,12 +3418,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)</translation>
     </message>
     <message>
-        <location line="-74"/>
+        <location line="-71"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+38"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>在終端機顯示追蹤或除錯資訊，而不是寫到檔案 debug.log 中</translation>
     </message>
@@ -2937,18 +3448,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>客戶端軟體啓動時把 debug.log 檔縮小(預設值: 當沒有 -debug 時為 1)</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-39"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>指定連線在幾毫秒後逾時(預設值: 5000)</translation>
     </message>
     <message>
-        <location line="+109"/>
+        <location line="+107"/>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-80"/>
+        <location line="-79"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>是否要使用通用即插即用(UPnP)協定，來設定聽候連線的通訊埠的對應(預設值: 0)</translation>
     </message>
@@ -2958,22 +3469,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>是否要使用通用即插即用(UPnP)協定，來設定聽候連線的通訊埠的對應(預設值: 當有聽候連線時為 1)</translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="-24"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+39"/>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC 連線使用者名稱</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+48"/>
         <source>Verifying database integrity...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+56"/>
         <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2988,42 +3499,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>警告: 這個版本已經被淘汰了，必須要升級！</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-47"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>錢包檔 weallet.dat 壞掉了，拯救失敗</translation>
     </message>
     <message>
-        <location line="-54"/>
+        <location line="-55"/>
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC 連線密碼</translation>
     </message>
     <message>
-        <location line="-84"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
- %s
-It is recommended you use the following random password:
-rpcuser=GridCoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+51"/>
+        <location line="-30"/>
         <source>Find peers using internet relay chat (default: 0)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
         <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+13"/>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3113,7 +3609,12 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+8"/>
+        <source>Initialization sanity check failed. GridCoin is shutting down.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+45"/>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3123,12 +3624,12 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-158"/>
+        <location line="-155"/>
         <source>This help message</source>
         <translation>這些說明訊息</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="+93"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3138,17 +3639,17 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-98"/>
+        <location line="-96"/>
         <source>GridCoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+140"/>
+        <location line="+137"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>沒辦法和這台電腦上的 %s 繫結(回傳錯誤 %d, %s)</translation>
     </message>
     <message>
-        <location line="-130"/>
+        <location line="-127"/>
         <source>Connect through socks proxy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3158,12 +3659,12 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
         <translation>允許對 -addnode, -seednode, -connect 的參數使用域名查詢</translation>
     </message>
     <message>
-        <location line="+122"/>
+        <location line="+119"/>
         <source>Loading addresses...</source>
         <translation>正在載入位址資料...</translation>
     </message>
     <message>
-        <location line="-15"/>
+        <location line="-14"/>
         <source>Error loading blkindex.dat</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3213,7 +3714,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
         <translation>沒辦法解析 -externalip 位址: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-25"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: &apos;%s&apos;</translation>
     </message>
@@ -3238,17 +3739,17 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
         <translation>累積金額不足</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-33"/>
         <source>Loading block index...</source>
         <translation>正在載入區塊索引...</translation>
     </message>
     <message>
-        <location line="-103"/>
+        <location line="-101"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>增加一個要連線的節線，並試著保持對它的連線暢通</translation>
     </message>
     <message>
-        <location line="+122"/>
+        <location line="+119"/>
         <source>Unable to bind to %s on this computer. GridCoin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3263,7 +3764,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+26"/>
         <source>Loading wallet...</source>
         <translation>正在載入錢包資料...</translation>
     </message>
@@ -3271,11 +3772,6 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
         <location line="+8"/>
         <source>Cannot downgrade wallet</source>
         <translation>沒辦法把錢包格式降級</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Cannot initialize keypool</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3293,7 +3789,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
         <translation>載入完成</translation>
     </message>
     <message>
-        <location line="-167"/>
+        <location line="-164"/>
         <source>To use the %s option</source>
         <translation>為了要使用 %s 選項</translation>
     </message>
