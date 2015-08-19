@@ -4,7 +4,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About GridCoin</source>
-        <translation>關于Gridcoin</translation>
+        <translation>關於Gridcoin</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -25,9 +25,9 @@ Copyright © 2014 The GridCoin developers</source>
         <source>
 This is experimental software.
 
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
 
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
         <translation type="unfinished">這是一套實驗性軟體。
 
 本軟體是依據MIT/X11軟體授權條款散佈。詳情見附帶的COPYING或&amp;lt;a href=&amp;quot;http://www.opensource.org/licenses/mit-license.php&amp;quot;&amp;gt;http://www.opensource.org/licenses/mit-license.php&amp;lt;/a&amp;gt;.
@@ -65,7 +65,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-46"/>
         <source>These are your GridCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>這是您用來接收支付的Gridcoin地址列表。爲不同的支付方建立不同的地址以便于了解支付來源。</translation>
+        <translation>這是您用來接收支付的Gridcoin地址列表。爲不同的支付方建立不同的地址以便於了解支付來源。</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -181,12 +181,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+33"/>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>在系統允許的情況下用于防止sendmoney欺詐，並未提供真正的安全防護措施。</translation>
+        <translation>在系統允許的情況下用於防止sendmoney欺詐，並未提供真正的安全防護措施。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>For staking only</source>
-        <translation>仅用于权益增值</translation>
+        <translation>仅用於权益增值</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -236,7 +236,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>警告：如果您丟失了加密該錢包的密碼，其中所有的Gridcoin將會丟失！</translation>
+        <translation>警告：如果您丟失了加密該錢包的密碼，其中&lt;b&gt;所有的Gridcoin將會丟失&lt;/b&gt;！</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -317,12 +317,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+242"/>
         <source>Synchronizing with network...</source>
-        <translation type="unfinished">?????????...</translation>
+        <translation type="unfinished">Synchronizing with network...</translation>
     </message>
     <message>
         <location line="-308"/>
         <source>&amp;Overview</source>
-        <translation>??</translation>
+        <translation>總覽</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -352,17 +352,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-13"/>
         <source>&amp;Receive coins</source>
-        <translation>????(&amp;R) </translation>
+        <translation>接收Gridcoin(&amp;R) </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>顯示用于接收支付的地址列表</translation>
+        <translation>顯示用於接收支付的地址列表</translation>
     </message>
     <message>
         <location line="-7"/>
         <source>&amp;Send coins</source>
-        <translation type="unfinished">????(&amp;S) </translation>
+        <translation type="unfinished">付款(&amp;S) </translation>
     </message>
     <message>
         <location line="+35"/>
@@ -413,13 +413,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+250"/>
         <source>~%n block(s) remaining</source>
         <translation>
-            <numerusform>~%n ??????</numerusform>
+            <numerusform>~%n 個區塊未完成</numerusform>
         </translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
-        <translation>???????%3% (%1 / %2 ???)</translation>
+        <translation>交易記錄已下載％3％（1％/2％個區塊）。</translation>
     </message>
     <message>
         <location line="-247"/>
@@ -529,7 +529,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+8"/>
         <source>Actions toolbar</source>
-        <translation>?????</translation>
+        <translation>工具列</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -553,7 +553,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+40"/>
         <source>Downloaded %1 blocks of transaction history.</source>
-        <translation>??? %1 ????????</translation>
+        <translation>已下載 %1 個區塊的交易紀錄.</translation>
     </message>
     <message>
         <location line="+413"/>
@@ -901,7 +901,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Copy low output</source>
-        <translation>?????複製低輸出</translation>
+        <translation>複製低輸出</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1216,12 +1216,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS ??:</translation>
+        <translation>SOCKS 協定版本:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>?????? SOCKS ????(?? 5)</translation>
+        <translation>代理伺服器的 SOCKS 協定版本 (比如說 5)</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -1281,12 +1281,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>?????????</translation>
+        <translation>在交易列表顯示位址(&amp;D)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Whether to show coin control features or not.</source>
-        <translation>????????????</translation>
+        <translation>是否需要交易源地址控制功能。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1538,7 +1538,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+23"/>
         <source>Estimated total blocks</source>
-        <translation>??????</translation>
+        <translation>估計總區塊數</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1676,7 +1676,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
+        <source>0.00 GRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1746,7 +1746,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BC</source>
+        <source>123.456 GRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3075,7 +3075,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>?????????????????????重新掃描區塊鏈，來尋找錢包可能漏掉的交易</translation>
+        <translation>重新掃描區塊鏈，來尋找錢包可能漏掉的交易</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3200,7 +3200,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GridCoin Alert&quot; admin@foo
     <message>
         <location line="-1"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished">??-socks????????: %i</translation>
+        <translation>在 -socks 指定了不明的代理協定版本: %i</translation>
     </message>
     <message>
         <location line="+4"/>

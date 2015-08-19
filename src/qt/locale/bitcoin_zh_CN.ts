@@ -9,7 +9,7 @@
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;GridCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GridCoin&lt;/b&gt; 版本</translation>
+        <translation>&lt;b&gt;GridCoin客户端&lt;/b&gt; 版本</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -31,9 +31,9 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>
 测试版软件
 
-经MIT/X11软件授权发布, 具体参见http://www.opensource.org/licenses/mit-license.php.
+经MIT/X11软件授权发布, 具体参见&lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
 
-本产品包括由OpenSSL Project (http://www.openssl.org/)开发的OpenSSL工具包 ，由 Eric Young (eay@cryptsoft.com) 撰写的密码学软件以及由 Thomas Bernard 撰写的UPnP软件.</translation>
+本产品包括由OpenSSL Project (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;)开发的OpenSSL工具包 ，由 Eric Young ((&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;)) 撰写的密码学软件以及由 Thomas Bernard 撰写的UPnP软件.</translation>
     </message>
 </context>
 <context>
@@ -126,7 +126,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>逗号分隔文件 (*.csv)</translation>
+        <translation>逗号分隔文件(*.csv)</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -264,7 +264,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-58"/>
         <source>GridCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的GridCoin还是有可能丢失。</translation>
+        <translation>将关闭软件以完成加密过程。请您谨记：钱包加密并不是万能的，电脑中毒，您的GridCoin还是有可能丢失。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1684,8 +1684,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation>123.456 BC {0.00 ?}</translation>
+        <source>0.00 GRC</source>
+        <translation>123.456 GRC {0.00 币}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1754,8 +1754,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BC</source>
-        <translation>123.456 BC</translation>
+        <source>123.456 GRC</source>
+        <translation>123.456 GRC</translation>
     </message>
     <message>
         <location line="+31"/>
